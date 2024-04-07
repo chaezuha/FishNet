@@ -21,4 +21,5 @@ offset_bottom = 489.0
 tooltip_text = "Quit The Game"
 text = "QUIT"
 
+[connection signal="pressed" from="PLAY" to="PLAY" method="_on_pressed"]
 [connection signal="pressed" from="QUIT" to="PLAY" method="_on_quit_pressed"]
